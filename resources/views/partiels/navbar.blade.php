@@ -23,14 +23,14 @@
             <li class="mx-4 my-6 md:my-0">
                 <a href="{{route('welcome')}}" class="text-xl hover:text-orange-300 duration-500">Accueil</a>
              </li>
+             <li class="mx-4 my-6 md:my-0">
+                 <a href="{{route('posts.create')}}" class="text-xl hover:text-orange-300 duration-500">Créer un nouveau post</a>
+             </li>
 
              <li class="mx-4 my-6 md:my-0">
                 <a href="{{route('conctact')}}" class="text-xl hover:text-orange-300 duration-500">Contact</a>
             </li>
 
-            <li class="mx-4 my-6 md:my-0">
-                <a href="#{{route('welcome')}}" class="text-xl hover:text-orange-300 duration-500">À propos</a>
-            </li>
 
 
             <li class="mx-4 my-6 md:my-0">

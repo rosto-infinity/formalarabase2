@@ -42,6 +42,9 @@ class PostController extends Controller
 
         return view('article',compact('post'));
     }
+  public function create(){
+    return view('form');
+  }  
   public function contact(){
     return view('contact');
   }  
