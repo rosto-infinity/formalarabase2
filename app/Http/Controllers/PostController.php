@@ -50,7 +50,18 @@ class PostController extends Controller
   }  
   public function store(Request $request)
   {
-   dd($request->content);
+    /**
+     * On récupère les données du formulaire
+     *  
+    */
+    Post::create([
+      'title' => $request->title,
+      'content' => $request->content,
+    ]);
+    /**
+     * On redirige vers la page d'accueil
+     */
+  //  dd('post crée');
   }  
 
 }
